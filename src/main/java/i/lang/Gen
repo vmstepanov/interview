@@ -1,0 +1,26 @@
+package i.lang;
+
+import i.model.Dev;
+import i.model.Person;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Gen {
+
+    public static void main(String[] args) {
+
+        List<Person> list = new ArrayList<Dev>();
+        Person[] p = new Dev[2];
+
+        System.out.println(x(4));
+    }
+
+    String x(short sh) {
+        return "a";
+    }
+
+    String x(short... sh) {
+        return "b";
+    }
+}
