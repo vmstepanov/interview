@@ -10,8 +10,8 @@ public class Gen {
 
     public static void main(String[] args) {
 
-        List<Person> list = new ArrayList<Dev>();
         Person[] p = new Dev[2];
+        List<Person> list = new ArrayList<Dev>();
 
         System.out.println(x(4));
     }
