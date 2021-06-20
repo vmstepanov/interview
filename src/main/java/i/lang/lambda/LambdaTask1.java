@@ -12,7 +12,7 @@ public class LambdaTask1 {
     public static void main(String[] args) {
 
         // запишите через ссылку на метод
-        Supplier<List<String>> supplier = ArrayList<String>::new;
+        Supplier<List<String>> supplier = null;
 
         // запишите через ссылку на метод копирующий конструктор
         {
